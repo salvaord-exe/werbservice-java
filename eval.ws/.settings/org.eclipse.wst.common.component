@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="eval.ws">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java"/>
+        <dependent-module archiveName="eval.servicios-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/eval.servicios/eval.servicios">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eval.entidades-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/eval.entidades/eval.entidades">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eval.commons-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/eval.commons/eval.commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="eval.ws"/>
+        <property name="java-output-path" value="/eval.ws/target/classes"/>
+    </wb-module>
+</project-modules>
